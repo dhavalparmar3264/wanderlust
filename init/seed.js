@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Listing = require("../models/listing.js");
 const { data } = require("./data.js");
 
-const MONGO_URL = process.env.ATLAS_DB_URL;
+const MONGO_URL = process.env.ATLASDB_URL;
 
 main();
 
